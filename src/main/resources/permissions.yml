@@ -1,0 +1,22 @@
+ranks:
+  admin:
+    inherits: friend
+    permissions:
+      - poobcraft.promote
+      - poobcraft.demote
+      - poobcraft.reload
+      - poobcraft.backup
+      - poobcraft.setspawn
+  friend:
+    inherits: default
+    permissions:
+      - poobcraft.home
+      - poobcraft.spawn
+      - poobcraft.grave
+  default:
+    permissions: []
+
+users:
+  itsmepooba:
+    rank: admin
+    permissions: []

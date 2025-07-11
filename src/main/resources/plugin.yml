@@ -1,0 +1,33 @@
+name: PoobcraftBase
+version: 1.0
+main: com.poobcraft.base.PoobcraftBase
+api-version: 1.20
+load: POSTWORLD
+commands:
+  help:
+    description: Lists available commands.
+    usage: /help
+  pbreload:
+    description: Reloads the plugin.
+    usage: /pbreload
+  promote:
+    description: Promotes a player.
+    usage: /promote <player>
+  demote:
+    description: Demotes a player.
+    usage: /demote <player>
+  home:
+    description: Teleport to your home.
+    usage: /home
+  spawn:
+    description: Teleport to spawn.
+    usage: /spawn
+  setspawn:
+    description: Set the world spawn.
+    usage: /setspawn
+  backup:
+    description: Create a backup.
+    usage: /backup
+  grave:
+    description: Get the location of your last grave.
+    usage: /grave
